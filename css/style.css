@@ -1,0 +1,47 @@
+
+/*header*/
+.me{
+    color: white;
+    margin-left: 1000px;
+}
+/*footer*/
+.m{ padding-right: 200px;
+    padding-left: 280px;
+    color: white;
+    background-color:#333;
+    text-decoration: none;
+    padding-bottom: 100px;
+}
+
+body {
+
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+
+    background-size: 400% 400%;
+
+    animation: BackgroundGradient 30s ease infinite;
+
+}
+@keyframes BackgroundGradient {
+
+    0% {background-position: 0% 50%;}
+
+    50% {background-position: 100% 50%;}
+
+    100% {background-position: 0% 50%;}
+
+}
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+.a:hover 
+{
+     color:white;
+     text-decoration:none; 
+     cursor:pointer;  
+}
+p{
+    margin-left: 10px;
+}

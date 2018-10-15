@@ -1,0 +1,38 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.image{
+  margin-left: 50px;
+}
+.column {
+  margin-left: 7px;
+    margin-top: 95px;
+    float: left;
+    width: 31.33%;
+    padding: 3px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+.container3{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4px;
+  float: left;
+}
+.column3{
+  margin-left: 7px;
+  margin-top: 250px;
+  float: left;
+  width: 31.33%;
+  padding: 3px;
+}
+.column4{
+  margin-left: 7px;
+  margin-top: 95px;
+  float: left;
+  width: 31.33%;
+  padding: 3px;
+}
